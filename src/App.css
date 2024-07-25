@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Timercontainer {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+.timer {
+  text-align: center;
+}
+
+.Timercontainer > div:last-child {
+  margin-top: 20px;
+}
+
+.button {
+  background: none;
+  border: 1px solid blue;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
